@@ -1,7 +1,7 @@
 
 # import numpy as np
 
-# file = open("day8_data.txt", "r")
+# file = open("input.txt", "r")
 
 # lines = file.readlines()
 
@@ -26,7 +26,7 @@
 
 ########################################
 
-file = open("day8_data.txt", "r")
+file = open("input.txt", "r")
 
 lines = file.readlines()
 

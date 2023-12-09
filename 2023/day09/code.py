@@ -1,7 +1,7 @@
 
 import numpy as np
 
-file = open("day9_data.txt", "r")
+file = open("input.txt", "r")
 lines = file.readlines()
 
 somma = 0
@@ -24,7 +24,7 @@ for line in lines:
 
 ########################
 
-file = open("day9_data.txt", "r")
+file = open("input.txt", "r")
 lines = file.readlines()
 
 somma = 0

@@ -4,7 +4,7 @@ import numpy as np
 from functools import cmp_to_key
 
 
-file = open("day7_data.txt", "r")
+file = open("input.txt", "r")
 
 lines = file.readlines()
 
@@ -94,7 +94,7 @@ print(np.sum(total_win))
 
 #####################################
 
-file = open("day7_data.txt", "r")
+file = open("input.txt", "r")
 
 lines = file.readlines()
 

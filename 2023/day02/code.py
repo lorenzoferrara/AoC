@@ -1,6 +1,6 @@
 import numpy as np
 
-file = open("day2_data.txt", "r")
+file = open("input.txt", "r")
 
 lines = file.readlines()
 
@@ -42,7 +42,7 @@ for line in lines:
 
 import numpy as np
 
-file = open("day2_data.txt", "r")
+file = open("input.txt", "r")
 
 lines = file.readlines()
 
