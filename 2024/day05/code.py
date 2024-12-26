@@ -3,23 +3,24 @@ import pandas as pd
 import re
 
 with open("input.txt", "r") as file:
-# with open("example.txt", "r") as file:
+    # with open("example.txt", "r") as file:
     lines = file.readlines()
 
 ######################### PART 1
 
-prima_parte=True
-rules=[]
-updates=[]
+prima_parte = True
+rules = []
+updates = []
 
 for line in lines:
-    if len(line)<3:
-        prima_parte=False
+    if len(line) < 3:
+        prima_parte = False
 
     elif prima_parte:
-        rules.append(line.strip().split('|'))
+        rules.append(line.strip().split("|"))
     else:
-        updates.append(line.strip().split(','))
+        updates.append(line.strip().split(","))
+
 
 def is_valid(update):
     for rule in rules:
@@ -32,16 +33,18 @@ def is_valid(update):
             pass
     return True
 
-totale=0
+
+totale = 0
 for update in updates:
     if is_valid(update):
-        L=len(update)
-        print(int(update[L//2]))
-        totale += int(update[L//2])
+        L = len(update)
+        print(int(update[L // 2]))
+        totale += int(update[L // 2])
 print(f"Totale: {totale}")
 
 ######################### PART 2
 
+
 def is_valid(update):
     for rule in rules:
         try:
@@ -52,6 +55,7 @@ def is_valid(update):
         except:
             pass
     return True
+
 
 def fix_update(update):
     for rule in rules:
@@ -64,17 +68,16 @@ def fix_update(update):
         except:
             pass
     return update
-            
 
-totale=0
+
+totale = 0
 for update in updates:
 
     if not is_valid(update):
         while not is_valid(update):
-            update=fix_update(update)
+            update = fix_update(update)
 
-        L=len(update)
-        print(int(update[L//2]))
-        totale += int(update[L//2])
+        L = len(update)
+        print(int(update[L // 2]))
+        totale += int(update[L // 2])
 print(f"Totale: {totale}")
-
