@@ -52,7 +52,7 @@ def part2(lines):
 
                 for block in range(num_blocks-1):
                     for iter in range(series_length):
-                        if string_number[block*series_length + iter] != string_number[(block+1)*series_length + iter]:
+                        if repetead_flag and string_number[block*series_length + iter] != string_number[(block+1)*series_length + iter]:
                             repetead_flag = False
                 
                 if repetead_flag:
