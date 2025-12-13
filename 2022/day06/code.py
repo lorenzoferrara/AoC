@@ -9,71 +9,53 @@ def get_cleaned_dataset(test_type):
     with open(test_type + ".txt", "r") as file:
         lines = file.readlines()
 
-        movements = []
-        columns = []
-
-        for line in lines:
-            if line.startswith("m"):
-                parts = line.strip().split()
-                times = int(parts[1])
-                start = int(parts[3]) -1 
-                end = int(parts[5]) - 1
-                movements.append([times, start, end])
-
-        lines.reverse()
-
-        for line in lines:
-
-            stripped_line = line.strip()
-            if stripped_line.startswith("1"):
-                numbers = stripped_line.split("   ")
-                columns_number = np.max([int(i) for i in numbers])
-                # intialize columns
-                for _ in range(columns_number):
-                    columns.append([])
-
-
-            if stripped_line.startswith("["):
-                for index in range(columns_number):
-                    position = 1 + index*4
-                    if len(line) > position and line[position]!=" ":
-                        columns[index].append(line[position])
-
-
-    return columns, movements
+    return lines
         
 
 def part1(dataset):
 
-    columns, movements = cp.deepcopy(dataset)
+    found_indices = []
+    for line in dataset:
+        line = list(line.strip())
+        marker_length = 4
+        sequence = []
+        for _ in range(marker_length-1):
+            sequence.append(line.pop(0))
+        
+        for ind in range(len(line)):
+            sequence.append(line.pop(0))
+            # print(set(sequence))
+            if len(set(sequence)) == marker_length:
+                found_indices.append(marker_length + ind) 
+                break
+            else:
+                sequence.pop(0)
 
-    for times, start, end in movements:
-        for _ in range(times):
-            element = columns[start].pop()
-            columns[end].append(element)
+    return found_indices
 
-    message = []
-    for c in columns:
-        top_element = c.pop()
-        message.append(top_element)
 
-    return "".join(message)
+
 
 def part2(dataset):
 
-    columns, movements = cp.deepcopy(dataset)
+    found_indices = []
+    for line in dataset:
+        line = list(line.strip())
+        marker_length = 14
+        sequence = []
+        for _ in range(marker_length-1):
+            sequence.append(line.pop(0))
+        
+        for ind in range(len(line)):
+            sequence.append(line.pop(0))
+            # print(set(sequence))
+            if len(set(sequence)) == marker_length:
+                found_indices.append(marker_length + ind) 
+                break
+            else:
+                sequence.pop(0)
 
-    for number, start, end in movements:
-        tail = columns[start][-number:]
-        columns[end].extend(tail)
-        columns[start] = columns[start][:-number]
-
-    message = []
-    for c in columns:
-        top_element = c.pop()
-        message.append(top_element)
-
-    return "".join(message)
+    return found_indices
 
 ####################################################
 
