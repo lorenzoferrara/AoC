@@ -1,11 +1,6 @@
 import numpy as np
 import os
-
-import gurobipy as gp
-from gurobipy import GRB
-import numpy as np
-import scipy.sparse as sp
-from gurobi_optimods.qubo import solve_qubo
+from itertools import combinations
 
 # Set the current dir to the script location
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
@@ -24,7 +19,7 @@ def get_cleaned_dataset(test_type):
 			points.add(start)
 
 			for end in ends:
-				sides.append((start, end))
+				sides.append([start, end])
 				points.add(end)
 				
 	# print(sides, points)
@@ -39,34 +34,41 @@ def part1(dataset):
 	sides, points = dataset
 	P = len(points)
 
-	print(sides)
+	def are_separated(sides):
+		to_see = set([sides[0][0]])
+		seen = set()
 
-	adjacency_matrix = np.zeros((P,P))
+		while to_see:
+			point = to_see.pop()
+			seen.add(point)
 
-	for ind1, p1 in enumerate(points):
-		for ind2, p2 in enumerate(points):
-			if (p1,p2) in sides or (p2,p1) in sides:
-				adjacency_matrix[ind1, ind2] = 1
-				adjacency_matrix[ind2, ind1] = 1
+			for start, end in sides:
+				if point == start and end not in seen:
+					to_see.add(end)
+				if point == end and start not in seen:
+					to_see.add(start)
 
-	print(adjacency_matrix)
+		if len(seen) == P:
+			return 0, None
+		else:
+			prod = len(seen)*(P-len(seen))
+			# print(f"seen {len(seen)}, not seen {P-len(seen)}, prod {prod}")
+			return 1, prod
+	
+	print("here 1")
 
-	assert (adjacency_matrix == adjacency_matrix.T).all()
+	comb = combinations(sides, 3)
+	LC = len(list(comb))
 
-	qubo_matrix = -np.ones((P,P)) * adjacency_matrix
+	print("here 2")
 
-	for i in range(P):
-		qubo_matrix[i, i] = 2*np.sum(adjacency_matrix[i,:])
+	for ind, avoid_sides in enumerate(comb):
+		print(f"{ind}/{LC}")
+		temp_sides = [i for i in sides.copy() if i not in avoid_sides]
+		result, prod = are_separated(temp_sides)
+		if result:
+			return prod
 
-	print(qubo_matrix)
-
-	result = solve_qubo(qubo_matrix)
-	print(result)
-	print(result.solution)
-
-
-
-	return 0
 
 ####################################################
 
@@ -83,7 +85,7 @@ if __name__ == "__main__":
 
 	test_types = [
 		"example",
-		# "input",
+		"input",
 	]
 
 	for test_type in test_types:
