@@ -1,0 +1,9 @@
+
+import numpy as np
+import scipy.sparse as sp
+from gurobi_optimods.qubo import solve_qubo
+
+
+Q = np.array([[0, -1, -2], [0, -3, 3], [0, 0, 2]])
+result = solve_qubo(Q)
+print(result)
