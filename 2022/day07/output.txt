@@ -1,0 +1,1497 @@
+
+Test type: example
+
+ $ cd base
+current directory: base, dir_name: base, current level: 0
+
+ $ ls
+
+ $ cd a
+current directory: base/a, dir_name: a, current level: 1
+
+ $ ls
+
+ $ cd e
+current directory: base/a/e, dir_name: e, current level: 2
+
+ $ ls
+
+ $ cd ..
+current directory: base/a, dir_name: a, current level: 1
+
+ $ cd ..
+current directory: base, dir_name: base, current level: 0
+
+ $ cd d
+current directory: base/d, dir_name: d, current level: 1
+
+ $ ls
+
+0: ['base']
+
+1: ['a', 'd']
+
+2: ['e']
+
+3: []
+
+4: []
+
+5: []
+
+6: []
+
+7: []
+Part 1: 0
+Part 2: None
+
+Test type: input
+
+ $ cd base
+current directory: base, dir_name: base, current level: 0
+
+ $ ls
+
+ $ cd bzgf
+current directory: base/bzgf, dir_name: bzgf, current level: 1
+
+ $ ls
+
+ $ cd ..
+current directory: base, dir_name: base, current level: 0
+
+ $ cd fhhwv
+current directory: base/fhhwv, dir_name: fhhwv, current level: 1
+
+ $ ls
+
+ $ cd bjml
+current directory: base/fhhwv/bjml, dir_name: bjml, current level: 2
+
+ $ ls
+
+ $ cd cwghv
+current directory: base/fhhwv/bjml/cwghv, dir_name: cwghv, current level: 3
+
+ $ ls
+
+ $ cd tdgw
+current directory: base/fhhwv/bjml/cwghv/tdgw, dir_name: tdgw, current level: 4
+
+ $ ls
+
+ $ cd ..
+current directory: base/fhhwv/bjml/cwghv, dir_name: cwghv, current level: 3
+
+ $ cd ..
+current directory: base/fhhwv/bjml, dir_name: bjml, current level: 2
+
+ $ cd pffdg
+current directory: base/fhhwv/bjml/pffdg, dir_name: pffdg, current level: 3
+
+ $ ls
+
+ $ cd bgzdv
+current directory: base/fhhwv/bjml/pffdg/bgzdv, dir_name: bgzdv, current level: 4
+
+ $ ls
+
+ $ cd ..
+current directory: base/fhhwv/bjml/pffdg, dir_name: pffdg, current level: 3
+
+ $ cd hqwmfdj
+current directory: base/fhhwv/bjml/pffdg/hqwmfdj, dir_name: hqwmfdj, current level: 4
+
+ $ ls
+
+ $ cd ..
+current directory: base/fhhwv/bjml/pffdg, dir_name: pffdg, current level: 3
+
+ $ cd lzhz
+current directory: base/fhhwv/bjml/pffdg/lzhz, dir_name: lzhz, current level: 4
+
+ $ ls
+
+ $ cd jbc
+current directory: base/fhhwv/bjml/pffdg/lzhz/jbc, dir_name: jbc, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/fhhwv/bjml/pffdg/lzhz, dir_name: lzhz, current level: 4
+
+ $ cd ..
+current directory: base/fhhwv/bjml/pffdg, dir_name: pffdg, current level: 3
+
+ $ cd nbmsrl
+current directory: base/fhhwv/bjml/pffdg/nbmsrl, dir_name: nbmsrl, current level: 4
+
+ $ ls
+
+ $ cd ..
+current directory: base/fhhwv/bjml/pffdg, dir_name: pffdg, current level: 3
+
+ $ cd ..
+current directory: base/fhhwv/bjml, dir_name: bjml, current level: 2
+
+ $ cd vdd
+current directory: base/fhhwv/bjml/vdd, dir_name: vdd, current level: 3
+
+ $ ls
+
+ $ cd ..
+current directory: base/fhhwv/bjml, dir_name: bjml, current level: 2
+
+ $ cd zzvs
+current directory: base/fhhwv/bjml/zzvs, dir_name: zzvs, current level: 3
+
+ $ ls
+
+ $ cd nflgvsgz
+current directory: base/fhhwv/bjml/zzvs/nflgvsgz, dir_name: nflgvsgz, current level: 4
+
+ $ ls
+
+ $ cd mdgzvzbs
+current directory: base/fhhwv/bjml/zzvs/nflgvsgz/mdgzvzbs, dir_name: mdgzvzbs, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/fhhwv/bjml/zzvs/nflgvsgz, dir_name: nflgvsgz, current level: 4
+
+ $ cd nlzc
+current directory: base/fhhwv/bjml/zzvs/nflgvsgz/nlzc, dir_name: nlzc, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/fhhwv/bjml/zzvs/nflgvsgz, dir_name: nflgvsgz, current level: 4
+
+ $ cd ..
+current directory: base/fhhwv/bjml/zzvs, dir_name: zzvs, current level: 3
+
+ $ cd vmbrt
+current directory: base/fhhwv/bjml/zzvs/vmbrt, dir_name: vmbrt, current level: 4
+
+ $ ls
+
+ $ cd ..
+current directory: base/fhhwv/bjml/zzvs, dir_name: zzvs, current level: 3
+
+ $ cd ..
+current directory: base/fhhwv/bjml, dir_name: bjml, current level: 2
+
+ $ cd ..
+current directory: base/fhhwv, dir_name: fhhwv, current level: 1
+
+ $ cd ddpf
+current directory: base/fhhwv/ddpf, dir_name: ddpf, current level: 2
+
+ $ ls
+
+ $ cd plv
+current directory: base/fhhwv/ddpf/plv, dir_name: plv, current level: 3
+
+ $ ls
+
+ $ cd ..
+current directory: base/fhhwv/ddpf, dir_name: ddpf, current level: 2
+
+ $ cd ..
+current directory: base/fhhwv, dir_name: fhhwv, current level: 1
+
+ $ cd jngvpc
+current directory: base/fhhwv/jngvpc, dir_name: jngvpc, current level: 2
+
+ $ ls
+
+ $ cd jbc
+current directory: base/fhhwv/jngvpc/jbc, dir_name: jbc, current level: 3
+
+ $ ls
+
+ $ cd htczftcn
+current directory: base/fhhwv/jngvpc/jbc/htczftcn, dir_name: htczftcn, current level: 4
+
+ $ ls
+
+ $ cd nflgvsgz
+current directory: base/fhhwv/jngvpc/jbc/htczftcn/nflgvsgz, dir_name: nflgvsgz, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/fhhwv/jngvpc/jbc/htczftcn, dir_name: htczftcn, current level: 4
+
+ $ cd ..
+current directory: base/fhhwv/jngvpc/jbc, dir_name: jbc, current level: 3
+
+ $ cd ..
+current directory: base/fhhwv/jngvpc, dir_name: jngvpc, current level: 2
+
+ $ cd ..
+current directory: base/fhhwv, dir_name: fhhwv, current level: 1
+
+ $ cd pffdg
+current directory: base/fhhwv/pffdg, dir_name: pffdg, current level: 2
+
+ $ ls
+
+ $ cd ..
+current directory: base/fhhwv, dir_name: fhhwv, current level: 1
+
+ $ cd prwpzhb
+current directory: base/fhhwv/prwpzhb, dir_name: prwpzhb, current level: 2
+
+ $ ls
+
+ $ cd jbc
+current directory: base/fhhwv/prwpzhb/jbc, dir_name: jbc, current level: 3
+
+ $ ls
+
+ $ cd ..
+current directory: base/fhhwv/prwpzhb, dir_name: prwpzhb, current level: 2
+
+ $ cd pffdg
+current directory: base/fhhwv/prwpzhb/pffdg, dir_name: pffdg, current level: 3
+
+ $ ls
+
+ $ cd msdtpqqd
+current directory: base/fhhwv/prwpzhb/pffdg/msdtpqqd, dir_name: msdtpqqd, current level: 4
+
+ $ ls
+
+ $ cd ..
+current directory: base/fhhwv/prwpzhb/pffdg, dir_name: pffdg, current level: 3
+
+ $ cd sgtqmfgq
+current directory: base/fhhwv/prwpzhb/pffdg/sgtqmfgq, dir_name: sgtqmfgq, current level: 4
+
+ $ ls
+
+ $ cd ..
+current directory: base/fhhwv/prwpzhb/pffdg, dir_name: pffdg, current level: 3
+
+ $ cd ..
+current directory: base/fhhwv/prwpzhb, dir_name: prwpzhb, current level: 2
+
+ $ cd qtqpw
+current directory: base/fhhwv/prwpzhb/qtqpw, dir_name: qtqpw, current level: 3
+
+ $ ls
+
+ $ cd ..
+current directory: base/fhhwv/prwpzhb, dir_name: prwpzhb, current level: 2
+
+ $ cd zhcs
+current directory: base/fhhwv/prwpzhb/zhcs, dir_name: zhcs, current level: 3
+
+ $ ls
+
+ $ cd ..
+current directory: base/fhhwv/prwpzhb, dir_name: prwpzhb, current level: 2
+
+ $ cd ..
+current directory: base/fhhwv, dir_name: fhhwv, current level: 1
+
+ $ cd ..
+current directory: base, dir_name: base, current level: 0
+
+ $ cd gzlpvdhd
+current directory: base/gzlpvdhd, dir_name: gzlpvdhd, current level: 1
+
+ $ ls
+
+ $ cd ffvz
+current directory: base/gzlpvdhd/ffvz, dir_name: ffvz, current level: 2
+
+ $ ls
+
+ $ cd ..
+current directory: base/gzlpvdhd, dir_name: gzlpvdhd, current level: 1
+
+ $ cd ..
+current directory: base, dir_name: base, current level: 0
+
+ $ cd htczftcn
+current directory: base/htczftcn, dir_name: htczftcn, current level: 1
+
+ $ ls
+
+ $ cd dqbml
+current directory: base/htczftcn/dqbml, dir_name: dqbml, current level: 2
+
+ $ ls
+
+ $ cd bphwp
+current directory: base/htczftcn/dqbml/bphwp, dir_name: bphwp, current level: 3
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/dqbml, dir_name: dqbml, current level: 2
+
+ $ cd htczftcn
+current directory: base/htczftcn/dqbml/htczftcn, dir_name: htczftcn, current level: 3
+
+ $ ls
+
+ $ cd htczftcn
+current directory: base/htczftcn/dqbml/htczftcn/htczftcn, dir_name: htczftcn, current level: 4
+
+ $ ls
+
+ $ cd zzpnff
+current directory: base/htczftcn/dqbml/htczftcn/htczftcn/zzpnff, dir_name: zzpnff, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/dqbml/htczftcn/htczftcn, dir_name: htczftcn, current level: 4
+
+ $ cd ..
+current directory: base/htczftcn/dqbml/htczftcn, dir_name: htczftcn, current level: 3
+
+ $ cd jhldlsc
+current directory: base/htczftcn/dqbml/htczftcn/jhldlsc, dir_name: jhldlsc, current level: 4
+
+ $ ls
+
+ $ cd swcbqqd
+current directory: base/htczftcn/dqbml/htczftcn/jhldlsc/swcbqqd, dir_name: swcbqqd, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/dqbml/htczftcn/jhldlsc, dir_name: jhldlsc, current level: 4
+
+ $ cd ..
+current directory: base/htczftcn/dqbml/htczftcn, dir_name: htczftcn, current level: 3
+
+ $ cd nflgvsgz
+current directory: base/htczftcn/dqbml/htczftcn/nflgvsgz, dir_name: nflgvsgz, current level: 4
+
+ $ ls
+
+ $ cd glmvgr
+current directory: base/htczftcn/dqbml/htczftcn/nflgvsgz/glmvgr, dir_name: glmvgr, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/dqbml/htczftcn/nflgvsgz, dir_name: nflgvsgz, current level: 4
+
+ $ cd rmbwlbt
+current directory: base/htczftcn/dqbml/htczftcn/nflgvsgz/rmbwlbt, dir_name: rmbwlbt, current level: 5
+
+ $ ls
+
+ $ cd pffdg
+current directory: base/htczftcn/dqbml/htczftcn/nflgvsgz/rmbwlbt/pffdg, dir_name: pffdg, current level: 6
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/dqbml/htczftcn/nflgvsgz/rmbwlbt, dir_name: rmbwlbt, current level: 5
+
+ $ cd ..
+current directory: base/htczftcn/dqbml/htczftcn/nflgvsgz, dir_name: nflgvsgz, current level: 4
+
+ $ cd ..
+current directory: base/htczftcn/dqbml/htczftcn, dir_name: htczftcn, current level: 3
+
+ $ cd qddqn
+current directory: base/htczftcn/dqbml/htczftcn/qddqn, dir_name: qddqn, current level: 4
+
+ $ ls
+
+ $ cd jbc
+current directory: base/htczftcn/dqbml/htczftcn/qddqn/jbc, dir_name: jbc, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/dqbml/htczftcn/qddqn, dir_name: qddqn, current level: 4
+
+ $ cd ..
+current directory: base/htczftcn/dqbml/htczftcn, dir_name: htczftcn, current level: 3
+
+ $ cd tpmbzslr
+current directory: base/htczftcn/dqbml/htczftcn/tpmbzslr, dir_name: tpmbzslr, current level: 4
+
+ $ ls
+
+ $ cd dbfcp
+current directory: base/htczftcn/dqbml/htczftcn/tpmbzslr/dbfcp, dir_name: dbfcp, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/dqbml/htczftcn/tpmbzslr, dir_name: tpmbzslr, current level: 4
+
+ $ cd lgsdbjz
+current directory: base/htczftcn/dqbml/htczftcn/tpmbzslr/lgsdbjz, dir_name: lgsdbjz, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/dqbml/htczftcn/tpmbzslr, dir_name: tpmbzslr, current level: 4
+
+ $ cd ..
+current directory: base/htczftcn/dqbml/htczftcn, dir_name: htczftcn, current level: 3
+
+ $ cd ..
+current directory: base/htczftcn/dqbml, dir_name: dqbml, current level: 2
+
+ $ cd hwm
+current directory: base/htczftcn/dqbml/hwm, dir_name: hwm, current level: 3
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/dqbml, dir_name: dqbml, current level: 2
+
+ $ cd rsv
+current directory: base/htczftcn/dqbml/rsv, dir_name: rsv, current level: 3
+
+ $ ls
+
+ $ cd rsdnfh
+current directory: base/htczftcn/dqbml/rsv/rsdnfh, dir_name: rsdnfh, current level: 4
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/dqbml/rsv, dir_name: rsv, current level: 3
+
+ $ cd ..
+current directory: base/htczftcn/dqbml, dir_name: dqbml, current level: 2
+
+ $ cd ..
+current directory: base/htczftcn, dir_name: htczftcn, current level: 1
+
+ $ cd lbm
+current directory: base/htczftcn/lbm, dir_name: lbm, current level: 2
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn, dir_name: htczftcn, current level: 1
+
+ $ cd nflgvsgz
+current directory: base/htczftcn/nflgvsgz, dir_name: nflgvsgz, current level: 2
+
+ $ ls
+
+ $ cd jbc
+current directory: base/htczftcn/nflgvsgz/jbc, dir_name: jbc, current level: 3
+
+ $ ls
+
+ $ cd jbc
+current directory: base/htczftcn/nflgvsgz/jbc/jbc, dir_name: jbc, current level: 4
+
+ $ ls
+
+ $ cd ldzjsrm
+current directory: base/htczftcn/nflgvsgz/jbc/jbc/ldzjsrm, dir_name: ldzjsrm, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/jbc/jbc, dir_name: jbc, current level: 4
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/jbc, dir_name: jbc, current level: 3
+
+ $ cd mzt
+current directory: base/htczftcn/nflgvsgz/jbc/mzt, dir_name: mzt, current level: 4
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/jbc, dir_name: jbc, current level: 3
+
+ $ cd qzth
+current directory: base/htczftcn/nflgvsgz/jbc/qzth, dir_name: qzth, current level: 4
+
+ $ ls
+
+ $ cd nfsbdfv
+current directory: base/htczftcn/nflgvsgz/jbc/qzth/nfsbdfv, dir_name: nfsbdfv, current level: 5
+
+ $ ls
+
+ $ cd gmhbnffd
+current directory: base/htczftcn/nflgvsgz/jbc/qzth/nfsbdfv/gmhbnffd, dir_name: gmhbnffd, current level: 6
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/jbc/qzth/nfsbdfv, dir_name: nfsbdfv, current level: 5
+
+ $ cd htczftcn
+current directory: base/htczftcn/nflgvsgz/jbc/qzth/nfsbdfv/htczftcn, dir_name: htczftcn, current level: 6
+
+ $ ls
+
+ $ cd lnhjgl
+current directory: base/htczftcn/nflgvsgz/jbc/qzth/nfsbdfv/htczftcn/lnhjgl, dir_name: lnhjgl, current level: 7
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/jbc/qzth/nfsbdfv/htczftcn, dir_name: htczftcn, current level: 6
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/jbc/qzth/nfsbdfv, dir_name: nfsbdfv, current level: 5
+
+ $ cd qmc
+current directory: base/htczftcn/nflgvsgz/jbc/qzth/nfsbdfv/qmc, dir_name: qmc, current level: 6
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/jbc/qzth/nfsbdfv, dir_name: nfsbdfv, current level: 5
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/jbc/qzth, dir_name: qzth, current level: 4
+
+ $ cd pffdg
+current directory: base/htczftcn/nflgvsgz/jbc/qzth/pffdg, dir_name: pffdg, current level: 5
+
+ $ ls
+
+ $ cd bfdmm
+current directory: base/htczftcn/nflgvsgz/jbc/qzth/pffdg/bfdmm, dir_name: bfdmm, current level: 6
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/jbc/qzth/pffdg, dir_name: pffdg, current level: 5
+
+ $ cd rggmf
+current directory: base/htczftcn/nflgvsgz/jbc/qzth/pffdg/rggmf, dir_name: rggmf, current level: 6
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/jbc/qzth/pffdg, dir_name: pffdg, current level: 5
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/jbc/qzth, dir_name: qzth, current level: 4
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/jbc, dir_name: jbc, current level: 3
+
+ $ cd scwdmwj
+current directory: base/htczftcn/nflgvsgz/jbc/scwdmwj, dir_name: scwdmwj, current level: 4
+
+ $ ls
+
+ $ cd fhwnjp
+current directory: base/htczftcn/nflgvsgz/jbc/scwdmwj/fhwnjp, dir_name: fhwnjp, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/jbc/scwdmwj, dir_name: scwdmwj, current level: 4
+
+ $ cd jsbdjv
+current directory: base/htczftcn/nflgvsgz/jbc/scwdmwj/jsbdjv, dir_name: jsbdjv, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/jbc/scwdmwj, dir_name: scwdmwj, current level: 4
+
+ $ cd nflgvsgz
+current directory: base/htczftcn/nflgvsgz/jbc/scwdmwj/nflgvsgz, dir_name: nflgvsgz, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/jbc/scwdmwj, dir_name: scwdmwj, current level: 4
+
+ $ cd pffdg
+current directory: base/htczftcn/nflgvsgz/jbc/scwdmwj/pffdg, dir_name: pffdg, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/jbc/scwdmwj, dir_name: scwdmwj, current level: 4
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/jbc, dir_name: jbc, current level: 3
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz, dir_name: nflgvsgz, current level: 2
+
+ $ cd svmmm
+current directory: base/htczftcn/nflgvsgz/svmmm, dir_name: svmmm, current level: 3
+
+ $ ls
+
+ $ cd bgh
+current directory: base/htczftcn/nflgvsgz/svmmm/bgh, dir_name: bgh, current level: 4
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/svmmm, dir_name: svmmm, current level: 3
+
+ $ cd nclpsp
+current directory: base/htczftcn/nflgvsgz/svmmm/nclpsp, dir_name: nclpsp, current level: 4
+
+ $ ls
+
+ $ cd dqtgwjn
+current directory: base/htczftcn/nflgvsgz/svmmm/nclpsp/dqtgwjn, dir_name: dqtgwjn, current level: 5
+
+ $ ls
+
+ $ cd lbft
+current directory: base/htczftcn/nflgvsgz/svmmm/nclpsp/dqtgwjn/lbft, dir_name: lbft, current level: 6
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/svmmm/nclpsp/dqtgwjn, dir_name: dqtgwjn, current level: 5
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/svmmm/nclpsp, dir_name: nclpsp, current level: 4
+
+ $ cd htczftcn
+current directory: base/htczftcn/nflgvsgz/svmmm/nclpsp/htczftcn, dir_name: htczftcn, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/svmmm/nclpsp, dir_name: nclpsp, current level: 4
+
+ $ cd jbc
+current directory: base/htczftcn/nflgvsgz/svmmm/nclpsp/jbc, dir_name: jbc, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/svmmm/nclpsp, dir_name: nclpsp, current level: 4
+
+ $ cd pwvbnc
+current directory: base/htczftcn/nflgvsgz/svmmm/nclpsp/pwvbnc, dir_name: pwvbnc, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/svmmm/nclpsp, dir_name: nclpsp, current level: 4
+
+ $ cd qhrtrsvm
+current directory: base/htczftcn/nflgvsgz/svmmm/nclpsp/qhrtrsvm, dir_name: qhrtrsvm, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/svmmm/nclpsp, dir_name: nclpsp, current level: 4
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/svmmm, dir_name: svmmm, current level: 3
+
+ $ cd pffdg
+current directory: base/htczftcn/nflgvsgz/svmmm/pffdg, dir_name: pffdg, current level: 4
+
+ $ ls
+
+ $ cd dbtmdvq
+current directory: base/htczftcn/nflgvsgz/svmmm/pffdg/dbtmdvq, dir_name: dbtmdvq, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/svmmm/pffdg, dir_name: pffdg, current level: 4
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/svmmm, dir_name: svmmm, current level: 3
+
+ $ cd qtqpw
+current directory: base/htczftcn/nflgvsgz/svmmm/qtqpw, dir_name: qtqpw, current level: 4
+
+ $ ls
+
+ $ cd crpzfdn
+current directory: base/htczftcn/nflgvsgz/svmmm/qtqpw/crpzfdn, dir_name: crpzfdn, current level: 5
+
+ $ ls
+
+ $ cd qtldnjtd
+current directory: base/htczftcn/nflgvsgz/svmmm/qtqpw/crpzfdn/qtldnjtd, dir_name: qtldnjtd, current level: 6
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/svmmm/qtqpw/crpzfdn, dir_name: crpzfdn, current level: 5
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/svmmm/qtqpw, dir_name: qtqpw, current level: 4
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/svmmm, dir_name: svmmm, current level: 3
+
+ $ cd rwhq
+current directory: base/htczftcn/nflgvsgz/svmmm/rwhq, dir_name: rwhq, current level: 4
+
+ $ ls
+
+ $ cd hgqbmgch
+current directory: base/htczftcn/nflgvsgz/svmmm/rwhq/hgqbmgch, dir_name: hgqbmgch, current level: 5
+
+ $ ls
+
+ $ cd smfbjhw
+current directory: base/htczftcn/nflgvsgz/svmmm/rwhq/hgqbmgch/smfbjhw, dir_name: smfbjhw, current level: 6
+
+ $ ls
+
+ $ cd htczftcn
+current directory: base/htczftcn/nflgvsgz/svmmm/rwhq/hgqbmgch/smfbjhw/htczftcn, dir_name: htczftcn, current level: 7
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/svmmm/rwhq/hgqbmgch/smfbjhw, dir_name: smfbjhw, current level: 6
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/svmmm/rwhq/hgqbmgch, dir_name: hgqbmgch, current level: 5
+
+ $ cd smqh
+current directory: base/htczftcn/nflgvsgz/svmmm/rwhq/hgqbmgch/smqh, dir_name: smqh, current level: 6
+
+ $ ls
+
+ $ cd pffdg
+current directory: base/htczftcn/nflgvsgz/svmmm/rwhq/hgqbmgch/smqh/pffdg, dir_name: pffdg, current level: 7
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/svmmm/rwhq/hgqbmgch/smqh, dir_name: smqh, current level: 6
+
+ $ cd zbg
+current directory: base/htczftcn/nflgvsgz/svmmm/rwhq/hgqbmgch/smqh/zbg, dir_name: zbg, current level: 7
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/svmmm/rwhq/hgqbmgch/smqh, dir_name: smqh, current level: 6
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/svmmm/rwhq/hgqbmgch, dir_name: hgqbmgch, current level: 5
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/svmmm/rwhq, dir_name: rwhq, current level: 4
+
+ $ cd lrvncpvz
+current directory: base/htczftcn/nflgvsgz/svmmm/rwhq/lrvncpvz, dir_name: lrvncpvz, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/svmmm/rwhq, dir_name: rwhq, current level: 4
+
+ $ cd nflgvsgz
+current directory: base/htczftcn/nflgvsgz/svmmm/rwhq/nflgvsgz, dir_name: nflgvsgz, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/svmmm/rwhq, dir_name: rwhq, current level: 4
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/svmmm, dir_name: svmmm, current level: 3
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz, dir_name: nflgvsgz, current level: 2
+
+ $ cd zfjdnbs
+current directory: base/htczftcn/nflgvsgz/zfjdnbs, dir_name: zfjdnbs, current level: 3
+
+ $ ls
+
+ $ cd htczftcn
+current directory: base/htczftcn/nflgvsgz/zfjdnbs/htczftcn, dir_name: htczftcn, current level: 4
+
+ $ ls
+
+ $ cd jznspqtr
+current directory: base/htczftcn/nflgvsgz/zfjdnbs/htczftcn/jznspqtr, dir_name: jznspqtr, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/zfjdnbs/htczftcn, dir_name: htczftcn, current level: 4
+
+ $ cd tpz
+current directory: base/htczftcn/nflgvsgz/zfjdnbs/htczftcn/tpz, dir_name: tpz, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/zfjdnbs/htczftcn, dir_name: htczftcn, current level: 4
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/zfjdnbs, dir_name: zfjdnbs, current level: 3
+
+ $ cd nflgvsgz
+current directory: base/htczftcn/nflgvsgz/zfjdnbs/nflgvsgz, dir_name: nflgvsgz, current level: 4
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/zfjdnbs, dir_name: zfjdnbs, current level: 3
+
+ $ cd scvzpf
+current directory: base/htczftcn/nflgvsgz/zfjdnbs/scvzpf, dir_name: scvzpf, current level: 4
+
+ $ ls
+
+ $ cd fpbbjmjf
+current directory: base/htczftcn/nflgvsgz/zfjdnbs/scvzpf/fpbbjmjf, dir_name: fpbbjmjf, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/zfjdnbs/scvzpf, dir_name: scvzpf, current level: 4
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz/zfjdnbs, dir_name: zfjdnbs, current level: 3
+
+ $ cd ..
+current directory: base/htczftcn/nflgvsgz, dir_name: nflgvsgz, current level: 2
+
+ $ cd ..
+current directory: base/htczftcn, dir_name: htczftcn, current level: 1
+
+ $ cd pffdg
+current directory: base/htczftcn/pffdg, dir_name: pffdg, current level: 2
+
+ $ ls
+
+ $ cd mnj
+current directory: base/htczftcn/pffdg/mnj, dir_name: mnj, current level: 3
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/pffdg, dir_name: pffdg, current level: 2
+
+ $ cd ncwh
+current directory: base/htczftcn/pffdg/ncwh, dir_name: ncwh, current level: 3
+
+ $ ls
+
+ $ cd nflgvsgz
+current directory: base/htczftcn/pffdg/ncwh/nflgvsgz, dir_name: nflgvsgz, current level: 4
+
+ $ ls
+
+ $ cd bqqmlffw
+current directory: base/htczftcn/pffdg/ncwh/nflgvsgz/bqqmlffw, dir_name: bqqmlffw, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/pffdg/ncwh/nflgvsgz, dir_name: nflgvsgz, current level: 4
+
+ $ cd htczftcn
+current directory: base/htczftcn/pffdg/ncwh/nflgvsgz/htczftcn, dir_name: htczftcn, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/pffdg/ncwh/nflgvsgz, dir_name: nflgvsgz, current level: 4
+
+ $ cd ..
+current directory: base/htczftcn/pffdg/ncwh, dir_name: ncwh, current level: 3
+
+ $ cd nrsqtdz
+current directory: base/htczftcn/pffdg/ncwh/nrsqtdz, dir_name: nrsqtdz, current level: 4
+
+ $ ls
+
+ $ cd jbc
+current directory: base/htczftcn/pffdg/ncwh/nrsqtdz/jbc, dir_name: jbc, current level: 5
+
+ $ ls
+
+ $ cd ztphfs
+current directory: base/htczftcn/pffdg/ncwh/nrsqtdz/jbc/ztphfs, dir_name: ztphfs, current level: 6
+
+ $ ls
+
+ $ cd gpps
+current directory: base/htczftcn/pffdg/ncwh/nrsqtdz/jbc/ztphfs/gpps, dir_name: gpps, current level: 7
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/pffdg/ncwh/nrsqtdz/jbc/ztphfs, dir_name: ztphfs, current level: 6
+
+ $ cd ..
+current directory: base/htczftcn/pffdg/ncwh/nrsqtdz/jbc, dir_name: jbc, current level: 5
+
+ $ cd ..
+current directory: base/htczftcn/pffdg/ncwh/nrsqtdz, dir_name: nrsqtdz, current level: 4
+
+ $ cd nsqlmlqp
+current directory: base/htczftcn/pffdg/ncwh/nrsqtdz/nsqlmlqp, dir_name: nsqlmlqp, current level: 5
+
+ $ ls
+
+ $ cd zvwvdzlv
+current directory: base/htczftcn/pffdg/ncwh/nrsqtdz/nsqlmlqp/zvwvdzlv, dir_name: zvwvdzlv, current level: 6
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/pffdg/ncwh/nrsqtdz/nsqlmlqp, dir_name: nsqlmlqp, current level: 5
+
+ $ cd ..
+current directory: base/htczftcn/pffdg/ncwh/nrsqtdz, dir_name: nrsqtdz, current level: 4
+
+ $ cd ..
+current directory: base/htczftcn/pffdg/ncwh, dir_name: ncwh, current level: 3
+
+ $ cd ..
+current directory: base/htczftcn/pffdg, dir_name: pffdg, current level: 2
+
+ $ cd qtqpw
+current directory: base/htczftcn/pffdg/qtqpw, dir_name: qtqpw, current level: 3
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/pffdg, dir_name: pffdg, current level: 2
+
+ $ cd ..
+current directory: base/htczftcn, dir_name: htczftcn, current level: 1
+
+ $ cd qtqpw
+current directory: base/htczftcn/qtqpw, dir_name: qtqpw, current level: 2
+
+ $ ls
+
+ $ cd csqvzqdc
+current directory: base/htczftcn/qtqpw/csqvzqdc, dir_name: csqvzqdc, current level: 3
+
+ $ ls
+
+ $ cd lthhrqnn
+current directory: base/htczftcn/qtqpw/csqvzqdc/lthhrqnn, dir_name: lthhrqnn, current level: 4
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/qtqpw/csqvzqdc, dir_name: csqvzqdc, current level: 3
+
+ $ cd rgzqq
+current directory: base/htczftcn/qtqpw/csqvzqdc/rgzqq, dir_name: rgzqq, current level: 4
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/qtqpw/csqvzqdc, dir_name: csqvzqdc, current level: 3
+
+ $ cd ..
+current directory: base/htczftcn/qtqpw, dir_name: qtqpw, current level: 2
+
+ $ cd zhmp
+current directory: base/htczftcn/qtqpw/zhmp, dir_name: zhmp, current level: 3
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/qtqpw, dir_name: qtqpw, current level: 2
+
+ $ cd ..
+current directory: base/htczftcn, dir_name: htczftcn, current level: 1
+
+ $ cd rcnwghg
+current directory: base/htczftcn/rcnwghg, dir_name: rcnwghg, current level: 2
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn, dir_name: htczftcn, current level: 1
+
+ $ cd sglgqlp
+current directory: base/htczftcn/sglgqlp, dir_name: sglgqlp, current level: 2
+
+ $ ls
+
+ $ cd gnvnlrz
+current directory: base/htczftcn/sglgqlp/gnvnlrz, dir_name: gnvnlrz, current level: 3
+
+ $ ls
+
+ $ cd pvt
+current directory: base/htczftcn/sglgqlp/gnvnlrz/pvt, dir_name: pvt, current level: 4
+
+ $ ls
+
+ $ cd fpfddfw
+current directory: base/htczftcn/sglgqlp/gnvnlrz/pvt/fpfddfw, dir_name: fpfddfw, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/sglgqlp/gnvnlrz/pvt, dir_name: pvt, current level: 4
+
+ $ cd jbc
+current directory: base/htczftcn/sglgqlp/gnvnlrz/pvt/jbc, dir_name: jbc, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/sglgqlp/gnvnlrz/pvt, dir_name: pvt, current level: 4
+
+ $ cd jzrb
+current directory: base/htczftcn/sglgqlp/gnvnlrz/pvt/jzrb, dir_name: jzrb, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/sglgqlp/gnvnlrz/pvt, dir_name: pvt, current level: 4
+
+ $ cd ..
+current directory: base/htczftcn/sglgqlp/gnvnlrz, dir_name: gnvnlrz, current level: 3
+
+ $ cd srdqwtcs
+current directory: base/htczftcn/sglgqlp/gnvnlrz/srdqwtcs, dir_name: srdqwtcs, current level: 4
+
+ $ ls
+
+ $ cd cbd
+current directory: base/htczftcn/sglgqlp/gnvnlrz/srdqwtcs/cbd, dir_name: cbd, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/sglgqlp/gnvnlrz/srdqwtcs, dir_name: srdqwtcs, current level: 4
+
+ $ cd gwqzndrt
+current directory: base/htczftcn/sglgqlp/gnvnlrz/srdqwtcs/gwqzndrt, dir_name: gwqzndrt, current level: 5
+
+ $ ls
+
+ $ cd twtpbh
+current directory: base/htczftcn/sglgqlp/gnvnlrz/srdqwtcs/gwqzndrt/twtpbh, dir_name: twtpbh, current level: 6
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/sglgqlp/gnvnlrz/srdqwtcs/gwqzndrt, dir_name: gwqzndrt, current level: 5
+
+ $ cd ..
+current directory: base/htczftcn/sglgqlp/gnvnlrz/srdqwtcs, dir_name: srdqwtcs, current level: 4
+
+ $ cd rfvmgch
+current directory: base/htczftcn/sglgqlp/gnvnlrz/srdqwtcs/rfvmgch, dir_name: rfvmgch, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/sglgqlp/gnvnlrz/srdqwtcs, dir_name: srdqwtcs, current level: 4
+
+ $ cd ..
+current directory: base/htczftcn/sglgqlp/gnvnlrz, dir_name: gnvnlrz, current level: 3
+
+ $ cd ..
+current directory: base/htczftcn/sglgqlp, dir_name: sglgqlp, current level: 2
+
+ $ cd nchq
+current directory: base/htczftcn/sglgqlp/nchq, dir_name: nchq, current level: 3
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/sglgqlp, dir_name: sglgqlp, current level: 2
+
+ $ cd nlrbnwp
+current directory: base/htczftcn/sglgqlp/nlrbnwp, dir_name: nlrbnwp, current level: 3
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/sglgqlp, dir_name: sglgqlp, current level: 2
+
+ $ cd zpg
+current directory: base/htczftcn/sglgqlp/zpg, dir_name: zpg, current level: 3
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/sglgqlp, dir_name: sglgqlp, current level: 2
+
+ $ cd ..
+current directory: base/htczftcn, dir_name: htczftcn, current level: 1
+
+ $ cd wrfmf
+current directory: base/htczftcn/wrfmf, dir_name: wrfmf, current level: 2
+
+ $ ls
+
+ $ cd cdlwfjhp
+current directory: base/htczftcn/wrfmf/cdlwfjhp, dir_name: cdlwfjhp, current level: 3
+
+ $ ls
+
+ $ cd clshzcrc
+current directory: base/htczftcn/wrfmf/cdlwfjhp/clshzcrc, dir_name: clshzcrc, current level: 4
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/wrfmf/cdlwfjhp, dir_name: cdlwfjhp, current level: 3
+
+ $ cd lplgpg
+current directory: base/htczftcn/wrfmf/cdlwfjhp/lplgpg, dir_name: lplgpg, current level: 4
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/wrfmf/cdlwfjhp, dir_name: cdlwfjhp, current level: 3
+
+ $ cd ..
+current directory: base/htczftcn/wrfmf, dir_name: wrfmf, current level: 2
+
+ $ cd lchrdvm
+current directory: base/htczftcn/wrfmf/lchrdvm, dir_name: lchrdvm, current level: 3
+
+ $ ls
+
+ $ cd pldctfcf
+current directory: base/htczftcn/wrfmf/lchrdvm/pldctfcf, dir_name: pldctfcf, current level: 4
+
+ $ ls
+
+ $ cd gghvnc
+current directory: base/htczftcn/wrfmf/lchrdvm/pldctfcf/gghvnc, dir_name: gghvnc, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/wrfmf/lchrdvm/pldctfcf, dir_name: pldctfcf, current level: 4
+
+ $ cd pffdg
+current directory: base/htczftcn/wrfmf/lchrdvm/pldctfcf/pffdg, dir_name: pffdg, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/wrfmf/lchrdvm/pldctfcf, dir_name: pldctfcf, current level: 4
+
+ $ cd tvc
+current directory: base/htczftcn/wrfmf/lchrdvm/pldctfcf/tvc, dir_name: tvc, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/wrfmf/lchrdvm/pldctfcf, dir_name: pldctfcf, current level: 4
+
+ $ cd ..
+current directory: base/htczftcn/wrfmf/lchrdvm, dir_name: lchrdvm, current level: 3
+
+ $ cd vngv
+current directory: base/htczftcn/wrfmf/lchrdvm/vngv, dir_name: vngv, current level: 4
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/wrfmf/lchrdvm, dir_name: lchrdvm, current level: 3
+
+ $ cd ..
+current directory: base/htczftcn/wrfmf, dir_name: wrfmf, current level: 2
+
+ $ cd nflgvsgz
+current directory: base/htczftcn/wrfmf/nflgvsgz, dir_name: nflgvsgz, current level: 3
+
+ $ ls
+
+ $ cd htczftcn
+current directory: base/htczftcn/wrfmf/nflgvsgz/htczftcn, dir_name: htczftcn, current level: 4
+
+ $ ls
+
+ $ cd gflz
+current directory: base/htczftcn/wrfmf/nflgvsgz/htczftcn/gflz, dir_name: gflz, current level: 5
+
+ $ ls
+
+ $ cd qpdn
+current directory: base/htczftcn/wrfmf/nflgvsgz/htczftcn/gflz/qpdn, dir_name: qpdn, current level: 6
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/wrfmf/nflgvsgz/htczftcn/gflz, dir_name: gflz, current level: 5
+
+ $ cd ..
+current directory: base/htczftcn/wrfmf/nflgvsgz/htczftcn, dir_name: htczftcn, current level: 4
+
+ $ cd mpp
+current directory: base/htczftcn/wrfmf/nflgvsgz/htczftcn/mpp, dir_name: mpp, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/wrfmf/nflgvsgz/htczftcn, dir_name: htczftcn, current level: 4
+
+ $ cd ..
+current directory: base/htczftcn/wrfmf/nflgvsgz, dir_name: nflgvsgz, current level: 3
+
+ $ cd lcjqzrwm
+current directory: base/htczftcn/wrfmf/nflgvsgz/lcjqzrwm, dir_name: lcjqzrwm, current level: 4
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/wrfmf/nflgvsgz, dir_name: nflgvsgz, current level: 3
+
+ $ cd plvbmb
+current directory: base/htczftcn/wrfmf/nflgvsgz/plvbmb, dir_name: plvbmb, current level: 4
+
+ $ ls
+
+ $ cd nnrnwp
+current directory: base/htczftcn/wrfmf/nflgvsgz/plvbmb/nnrnwp, dir_name: nnrnwp, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/wrfmf/nflgvsgz/plvbmb, dir_name: plvbmb, current level: 4
+
+ $ cd ..
+current directory: base/htczftcn/wrfmf/nflgvsgz, dir_name: nflgvsgz, current level: 3
+
+ $ cd vdfwfg
+current directory: base/htczftcn/wrfmf/nflgvsgz/vdfwfg, dir_name: vdfwfg, current level: 4
+
+ $ ls
+
+ $ cd wtqrrvvr
+current directory: base/htczftcn/wrfmf/nflgvsgz/vdfwfg/wtqrrvvr, dir_name: wtqrrvvr, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/wrfmf/nflgvsgz/vdfwfg, dir_name: vdfwfg, current level: 4
+
+ $ cd ..
+current directory: base/htczftcn/wrfmf/nflgvsgz, dir_name: nflgvsgz, current level: 3
+
+ $ cd ..
+current directory: base/htczftcn/wrfmf, dir_name: wrfmf, current level: 2
+
+ $ cd qtqpw
+current directory: base/htczftcn/wrfmf/qtqpw, dir_name: qtqpw, current level: 3
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/wrfmf, dir_name: wrfmf, current level: 2
+
+ $ cd rgdc
+current directory: base/htczftcn/wrfmf/rgdc, dir_name: rgdc, current level: 3
+
+ $ ls
+
+ $ cd hqldlpg
+current directory: base/htczftcn/wrfmf/rgdc/hqldlpg, dir_name: hqldlpg, current level: 4
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/wrfmf/rgdc, dir_name: rgdc, current level: 3
+
+ $ cd ..
+current directory: base/htczftcn/wrfmf, dir_name: wrfmf, current level: 2
+
+ $ cd zqzzg
+current directory: base/htczftcn/wrfmf/zqzzg, dir_name: zqzzg, current level: 3
+
+ $ ls
+
+ $ cd ..
+current directory: base/htczftcn/wrfmf, dir_name: wrfmf, current level: 2
+
+ $ cd ..
+current directory: base/htczftcn, dir_name: htczftcn, current level: 1
+
+ $ cd ..
+current directory: base, dir_name: base, current level: 0
+
+ $ cd qcqg
+current directory: base/qcqg, dir_name: qcqg, current level: 1
+
+ $ ls
+
+ $ cd ..
+current directory: base, dir_name: base, current level: 0
+
+ $ cd qtqpw
+current directory: base/qtqpw, dir_name: qtqpw, current level: 1
+
+ $ ls
+
+ $ cd rcnp
+current directory: base/qtqpw/rcnp, dir_name: rcnp, current level: 2
+
+ $ ls
+
+ $ cd ..
+current directory: base/qtqpw, dir_name: qtqpw, current level: 1
+
+ $ cd ..
+current directory: base, dir_name: base, current level: 0
+
+ $ cd qzcdscbp
+current directory: base/qzcdscbp, dir_name: qzcdscbp, current level: 1
+
+ $ ls
+
+ $ cd mtqt
+current directory: base/qzcdscbp/mtqt, dir_name: mtqt, current level: 2
+
+ $ ls
+
+ $ cd mcrddwgp
+current directory: base/qzcdscbp/mtqt/mcrddwgp, dir_name: mcrddwgp, current level: 3
+
+ $ ls
+
+ $ cd tcmrv
+current directory: base/qzcdscbp/mtqt/mcrddwgp/tcmrv, dir_name: tcmrv, current level: 4
+
+ $ ls
+
+ $ cd hprvr
+current directory: base/qzcdscbp/mtqt/mcrddwgp/tcmrv/hprvr, dir_name: hprvr, current level: 5
+
+ $ ls
+
+ $ cd ..
+current directory: base/qzcdscbp/mtqt/mcrddwgp/tcmrv, dir_name: tcmrv, current level: 4
+
+ $ cd ..
+current directory: base/qzcdscbp/mtqt/mcrddwgp, dir_name: mcrddwgp, current level: 3
+
+ $ cd ..
+current directory: base/qzcdscbp/mtqt, dir_name: mtqt, current level: 2
+
+ $ cd ..
+current directory: base/qzcdscbp, dir_name: qzcdscbp, current level: 1
+
+ $ cd ..
+current directory: base, dir_name: base, current level: 0
+
+ $ cd rfgvg
+current directory: base/rfgvg, dir_name: rfgvg, current level: 1
+
+ $ ls
+
+ $ cd qlg
+current directory: base/rfgvg/qlg, dir_name: qlg, current level: 2
+
+ $ ls
+
+ $ cd ..
+current directory: base/rfgvg, dir_name: rfgvg, current level: 1
+
+ $ cd ..
+current directory: base, dir_name: base, current level: 0
+
+ $ cd rzb
+current directory: base/rzb, dir_name: rzb, current level: 1
+
+ $ ls
+
+ $ cd jbc
+current directory: base/rzb/jbc, dir_name: jbc, current level: 2
+
+ $ ls
+
+ $ cd ..
+current directory: base/rzb, dir_name: rzb, current level: 1
+
+ $ cd lbg
+current directory: base/rzb/lbg, dir_name: lbg, current level: 2
+
+ $ ls
+
+ $ cd fml
+current directory: base/rzb/lbg/fml, dir_name: fml, current level: 3
+
+ $ ls
+
+ $ cd ..
+current directory: base/rzb/lbg, dir_name: lbg, current level: 2
+
+ $ cd ..
+current directory: base/rzb, dir_name: rzb, current level: 1
+
+ $ cd qwjlvqdp
+current directory: base/rzb/qwjlvqdp, dir_name: qwjlvqdp, current level: 2
+
+ $ ls
+
+ $ cd htczftcn
+current directory: base/rzb/qwjlvqdp/htczftcn, dir_name: htczftcn, current level: 3
+
+ $ ls
+
+ $ cd gnnzlzwd
+current directory: base/rzb/qwjlvqdp/htczftcn/gnnzlzwd, dir_name: gnnzlzwd, current level: 4
+
+ $ ls
+
+ $ cd ..
+current directory: base/rzb/qwjlvqdp/htczftcn, dir_name: htczftcn, current level: 3
+
+ $ cd sztdtpjt
+current directory: base/rzb/qwjlvqdp/htczftcn/sztdtpjt, dir_name: sztdtpjt, current level: 4
+
+ $ ls
+
+ $ cd ..
+current directory: base/rzb/qwjlvqdp/htczftcn, dir_name: htczftcn, current level: 3
+
+ $ cd ..
+current directory: base/rzb/qwjlvqdp, dir_name: qwjlvqdp, current level: 2
+
+ $ cd ..
+current directory: base/rzb, dir_name: rzb, current level: 1
+
+ $ cd rsjg
+current directory: base/rzb/rsjg, dir_name: rsjg, current level: 2
+
+ $ ls
+
+0: ['base']
+
+1: ['bzgf', 'fhhwv', 'gzlpvdhd', 'qcqg', 'qzcdscbp', 'rfgvg', 'rzb']
+
+2: ['bjml', 'ddpf', 'jngvpc', 'prwpzhb', 'ffvz', 'dqbml', 'lbm', 'rcnwghg', 'sglgqlp', 'wrfmf', 'rcnp', 'mtqt', 'qlg', 'lbg', 'qwjlvqdp', 'rsjg']
+
+3: ['cwghv', 'pffdg', 'vdd', 'zzvs', 'plv', 'qtqpw', 'zhcs', 'bphwp', 'hwm', 'rsv', 'svmmm', 'zfjdnbs', 'mnj', 'ncwh', 'csqvzqdc', 'zhmp', 'gnvnlrz', 'nchq', 'nlrbnwp', 'zpg', 'cdlwfjhp', 'lchrdvm', 'rgdc', 'zqzzg', 'mcrddwgp', 'fml']
+
+4: ['tdgw', 'bgzdv', 'hqwmfdj', 'lzhz', 'nbmsrl', 'nflgvsgz', 'vmbrt', 'htczftcn', 'msdtpqqd', 'sgtqmfgq', 'jhldlsc', 'qddqn', 'tpmbzslr', 'rsdnfh', 'mzt', 'qzth', 'scwdmwj', 'bgh', 'nclpsp', 'rwhq', 'scvzpf', 'nrsqtdz', 'lthhrqnn', 'rgzqq', 'pvt', 'srdqwtcs', 'clshzcrc', 'lplgpg', 'pldctfcf', 'vngv', 'lcjqzrwm', 'plvbmb', 'vdfwfg', 'hqldlpg', 'tcmrv', 'gnnzlzwd', 'sztdtpjt']
+
+5: ['jbc', 'mdgzvzbs', 'nlzc', 'zzpnff', 'swcbqqd', 'glmvgr', 'rmbwlbt', 'dbfcp', 'lgsdbjz', 'ldzjsrm', 'nfsbdfv', 'fhwnjp', 'jsbdjv', 'dqtgwjn', 'pwvbnc', 'qhrtrsvm', 'dbtmdvq', 'crpzfdn', 'hgqbmgch', 'lrvncpvz', 'jznspqtr', 'tpz', 'fpbbjmjf', 'bqqmlffw', 'nsqlmlqp', 'fpfddfw', 'jzrb', 'cbd', 'gwqzndrt', 'rfvmgch', 'gghvnc', 'tvc', 'gflz', 'mpp', 'nnrnwp', 'wtqrrvvr', 'hprvr']
+
+6: ['gmhbnffd', 'qmc', 'bfdmm', 'rggmf', 'lbft', 'qtldnjtd', 'smfbjhw', 'smqh', 'ztphfs', 'zvwvdzlv', 'twtpbh', 'qpdn']
+
+7: ['lnhjgl', 'zbg', 'gpps']
+Part 1: 0
+Part 2: None
